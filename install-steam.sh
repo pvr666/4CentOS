@@ -9,5 +9,5 @@ dnf config-manager -y --enable PowerTools
 dnf -y groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 dnf update -y
 
-dnf -y config-manager --add-repo=https://negativo17.org/repos/epel-steam.repo
+#dnf -y config-manager --add-repo=https://negativo17.org/repos/epel-steam.repo
 dnf -y install steam
